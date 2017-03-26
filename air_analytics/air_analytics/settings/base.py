@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
+from __future__ import absolute_import
 import os
-
 from django.core.exceptions import ImproperlyConfigured
 
 
@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_celery_results',
+    'django_celery_beat',
+    'apartments',
 ]
 
 MIDDLEWARE = [
