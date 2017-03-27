@@ -130,3 +130,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Celery settings
+CELERY_BROKER_URL = get_env_variable('CELERY_BROKER_URL')
+CELERY_RESULT_BACKEND = 'django-db'
