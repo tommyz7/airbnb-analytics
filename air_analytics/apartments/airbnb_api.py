@@ -37,9 +37,8 @@ class AirbnbAPI(object):
         :param password:        password                Account's clear-text password (note: endpoint uses HTTPS)
         """
 
-
         user_agent = 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) ' \
-                 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+                     'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
 
         self._session.headers.update({
             "Accept": "application/json",
