@@ -74,6 +74,8 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
+celerybeat.pid
+
 
 # dotenv
 .env
@@ -87,3 +89,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+.idea
+
+# MAC OS files
+.DS_Store
