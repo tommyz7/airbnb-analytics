@@ -135,3 +135,9 @@ STATIC_URL = '/static/'
 # Celery settings
 CELERY_BROKER_URL = get_env_variable('CELERY_BROKER_URL')
 CELERY_RESULT_BACKEND = 'django-db'
+
+
+# Airbnb API settings
+AIRBNB_API_KEY = get_env_variable('AIRBNB_API_KEY')
+AIRBNB_USERNAME = get_env_variable('AIRBNB_USERNAME')
+AIRBNB_PASSWORD = get_env_variable('AIRBNB_PASSWORD')
